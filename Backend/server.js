@@ -14,7 +14,7 @@ connectDB();
 
 
 // Middleware
-app.use(cors());
+app.use(cors(mern-task-eight.vercel.app));
 app.use(express.json());
 
 // Routes
