@@ -11,16 +11,16 @@ const app = express();
 // Connect Database
 connectDB();
 
-
-
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: "https://mern-task-eight.vercel.app",
+  credentials: true,
+}));
 app.use(express.json());
 
 // Routes
 app.use('/api/auth', authRoutes);
-app.use('/api/todos', todoRoutes); // <-- ✅ Mount todo routes at /api/todos
-
+app.use('/api/todos', todoRoutes);
 
 const PORT = process.env.PORT || 5000;
 
