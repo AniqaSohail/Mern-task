@@ -1,0 +1,153 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(201, 214, 255, 1) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+form#Signup {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+
+form#Signup h1 {
+font-size: 2rem;
+font-family: cursive;
+font-weight: bold;
+margin-bottom: 1.5rem;
+color: #333;
+font-style: italic;
+text-align: center;
+}
+
+form#Signup .input-container {
+position: relative;
+width: 100%;
+margin-bottom: 15px;
+}
+
+form#Signup input {
+width: 100%;
+padding: 12px 20px 12px 45px;
+background-color: #efefef;
+border: none;
+border-radius: 8px;
+font-size: 16px;
+}
+
+form#Signup input:focus {
+outline: none;
+box-shadow: 0 0 0 2px rgba(116, 148, 236, 0.3);
+}
+
+form#Signup .icon {
+position: absolute;
+left: 15px; 
+top: 50%;
+transform: translateY(-50%);
+color: #7494ec;
+font-size: 18px;
+}
+
+form#Signup button {
+width: 100%;
+padding: 12px 20px;
+background-color: #7494ec;
+border: none;
+border-radius: 8px;
+color: #fff;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+margin-top: 10px;
+transition: background-color 0.3s ease;
+}
+
+form#Signup button:hover {
+background-color: #5a79c7;
+}
+
+form#Signup p {
+font-size: 14px;
+margin: 10px 0;
+font-weight: 600;
+text-align: center;
+}
+
+form#Signup .social-icons {
+display: flex;
+justify-content: center;
+gap: 20px;
+width: 100%;
+margin-top: 20px;
+}
+
+form#Signup .social-icon {
+font-size: 24px;
+color: #7494ec;
+transition: transform 0.3s ease;
+}
+
+form#Signup .social-icon:hover {
+transform: scale(1.1);
+}
+
+form#Signup a {
+color: #7494ec;
+font-weight: 600;
+text-decoration: none;
+}
+
+form#Signup a:hover {
+text-decoration: underline;
+}
+
+.error {
+color: #e53e3e;
+font-size: 12px;
+margin-top: 5px;
+text-align: left;
+padding-left: 5px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+form#Signup {
+  max-width: 100%;
+  padding: 1rem;
+}
+
+form#Signup input,
+form#Signup button {
+  padding: 10px 15px 10px 40px; 
+}
+
+form#Signup .icon {
+  left: 12px;
+}
+} 
