@@ -1,0 +1,66 @@
+/* Sidebar styling */
+.ant-layout-sider {
+  background: linear-gradient(to bottom, #5e35b1, #7e57c2); /* Purple gradient */
+  color: white;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ant-layout-sider .logo h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.ant-menu-item {
+  color: white;
+  font-weight: bold;
+}
+
+.ant-menu-item:hover,
+.ant-menu-item-selected {
+  background-color: #9d57c276 !important; /* Hover aur selected purple */
+}
+
+/* Button primary color */
+.ant-btn-primary {
+  background-color: #7735b1;
+  border-color: #5e35b1;
+}
+
+.ant-btn-primary:hover {
+  background-color: #4527a0bf;
+  border-color: #4527a0;
+}
+
+/* Content and form styling */
+.ant-layout-content {
+  background-color: #f3f0ff; /* Light purple background */
+}
+
+.ant-form {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-color: #ffffff; /* White form */
+}
+
+/* Table styling */
+.ant-table {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(94, 53, 177, 0.1);
+}
+
+.ant-table-tbody > tr > td {
+  color: #333;
+}
+
+.ant-tag {
+  font-weight: bold;
+}
+
+/* Avatar and headings */
+.logo h3 {
+  color: #fff;
+}
